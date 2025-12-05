@@ -73,6 +73,7 @@ Qualidade: O PSO mostrou-se superior para encontrar soluções de maior valor co
 Velocidade: O Simulated Annealing confirmou sua eficiência teórica, sendo ideal para cenários onde o tempo de resposta é crítico, mesmo sacrificando a precisão média.
 
 📚 Estrutura do Repositório
+```Bash
 ├── main.py          # Código fonte contendo PSO, SA e gerador de instâncias
 ├── Relatorio.pdf    # Relatório técnico detalhado (Teoria e Resultados)
 ├── README.md        # Documentação do projeto
