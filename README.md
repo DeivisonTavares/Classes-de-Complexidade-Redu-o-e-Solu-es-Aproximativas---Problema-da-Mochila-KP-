@@ -17,7 +17,7 @@ Este repositório contém a implementação e análise comparativa de meta-heur�
 
 ## 📝 Sobre o Projeto
 
-O **Problema da Mochila** é um clássico da otimização combinatória, classificado como **NP-Difícil** (*NP-Hard*). Devido à sua complexidade exponencial ($O(2^n)$), encontrar a solução exata via força bruta torna-se inviável para grandes conjuntos de dados.
+O **Problema da Mochila** é um clássico da otimização combinatória, classificado como **NP-Difícil** (*NP-Hard*). Devido à sua complexidade exponencial O(2^n), encontrar a solução exata via força bruta torna-se inviável para grandes conjuntos de dados.
 
 Este projeto explora duas abordagens aproximativas para encontrar soluções sub-ótimas de alta qualidade em tempo polinomial:
 
@@ -42,7 +42,7 @@ O projeto foi desenvolvido em **Python 3**, utilizando apenas bibliotecas nativa
 | **PSO** | $O(I \cdot P \cdot n)$ | População: 30 \| Iterações: 200 \| $w$: 0.7 \| $c1, c2$: 1.5 |
 | **Simulated Annealing** | $O(I \cdot n)$ | $T_0$: 100 \| Resfriamento: 0.99 \| Iterações: 3000 |
 
-*Onde $I$ = iterações, $P$ = partículas, $n$ = número de itens.*
+*Onde I = iterações, P = partículas, n = número de itens.*
 
 ---
 
