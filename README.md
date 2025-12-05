@@ -1,5 +1,3 @@
-# Classes-de-Complexidade-Redu-o-e-Solu-es-Aproximativas---Problema-da-Mochila-KP-
-
 # Análise de Algoritmos Aproximativos: Problema da Mochila (Knapsack Problem)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
