@@ -53,3 +53,27 @@ O projeto foi desenvolvido em **Python 3**, utilizando apenas bibliotecas nativa
    ```bash
    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
    cd nome-do-repositorio
+
+3.   Executar:
+   
+   `python main.py`
+
+📊 Resultados ObtidosOs testes foram realizados com 100 execuções independentes para cada instância (n=10, 30, 100). Abaixo, o resumo dos resultados para a instância grande (N=100):
+
+Métrica,PSO,Simulated Annealing,Análise
+Melhor Valor,3174,3170,Empate Técnico
+Média,2928.32,2459.50,PSO +19% Superior
+Estabilidade,Alta (σ≈67),Baixa (σ≈271),PSO mais confiável
+Tempo Médio,0.525s,0.048s,SA 10x Mais Rápido
+
+
+Conclusão dos Experimentos
+Qualidade: O PSO mostrou-se superior para encontrar soluções de maior valor consistentemente, evitando ótimos locais graças à sua abordagem populacional.
+
+Velocidade: O Simulated Annealing confirmou sua eficiência teórica, sendo ideal para cenários onde o tempo de resposta é crítico, mesmo sacrificando a precisão média.
+
+📚 Estrutura do Repositório
+├── main.py          # Código fonte contendo PSO, SA e gerador de instâncias
+├── Relatorio.pdf    # Relatório técnico detalhado (Teoria e Resultados)
+├── README.md        # Documentação do projeto
+└── slides/          # Apresentação do projeto
