@@ -1,0 +1,1 @@
+# Classes-de-Complexidade-Redu-o-e-Solu-es-Aproximativas---Problema-da-Mochila-KP-
